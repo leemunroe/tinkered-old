@@ -11,18 +11,33 @@ header{
 	padding:0 0 $padding;
 }
 
-.main{
+footer{
+	font-size:14px;
+	.container{
+		border-top:1px solid $grey;
+		padding:$padding 0;
+	}
+}
+
+main{
 	padding:$padding 0;
 }
 
 .logo{
-	background:#fff url(../img/logo.png) no-repeat 10px 10px;
-	width:88px;
-	height:100px;
-	padding:10px;
-	@include box-shadow(0 0 20px rgba(0,0,0,.2));
-	text-indent:-9999px;
+	// background:url(../img/logo.png) no-repeat 10px 10px;
+	// background-size:227px 50px;
+	// width:227px;
+	// height:50px;
+	// padding:10px;
+	// text-indent:-9999px;
+	margin:10px 0;
 	float:left;
+}
+
+.actions{
+	padding:$padding 0;
+	background:#289EEC;
+	text-align: center;
 }
 
 .section{

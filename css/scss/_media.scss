@@ -1,3 +1,9 @@
 img,video,audio,iframe,object{
 	max-width:100%;
 }
+
+.testimonial-avatar{
+  @include border-radius(100px);
+  width:80px;
+  border:3px solid rgba(0,0,0,.2);
+}
